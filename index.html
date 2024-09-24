@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="pokeball.png">
+    <title>Visualizador de Detalhes do Pokémon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Visualizador de Detalhes do Pokémon</h1>
+        <input type="text" id="pokemon-input" placeholder="Digite o nome ou ID do Pokémon">
+        <button id="search-button">Buscar</button>
+        <div id="pokemon-details" class="hidden">
+            <h2 id="pokemon-name"></h2>
+            <img id="pokemon-image" alt="Imagem do Pokémon">
+            <p><strong>ID:</strong> <span id="pokemon-id"></span></p>
+            <p><strong>Tipo:</strong> <span id="pokemon-type"></span></p>
+            <p><strong>Altura:</strong> <span id="pokemon-height"></span></p>
+            <p><strong>Peso:</strong> <span id="pokemon-weight"></span></p>
+        </div>
+        <div id="error-message" class="hidden"></div>
+        <div class="container-buttons">
+            <button id="previous-button">Anterior</button>
+            <button id="next-button">Próximo</button>
+        </div>
+    </div>
+    <button id="info-button">
+        <img src="info.png" alt="Ícone de Informações">
+    </button>
+    <div id="additional-info">
+        <p>Universidade de Vassouras – Campus Maricá</p>
+        <p>Laboratório de Programação Front End</p>
+        <p>Fabrício Dias</p>
+        <p>Hugo Lelly de Lima Marinho</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
