@@ -33,5 +33,6 @@ A interface é simples, responsiva e permite navegar entre Pokémons anteriores 
 ## Créditos
 Este projeto foi desenvolvido por:
 - Hugo Lelly de Lima Marinho
-Universidade de Vassouras – Campus Maricá
-Laboratório de Programação Front End
+- Universidade de Vassouras – Campus Maricá
+- Laboratório de Programação Front End
+- Fabrício Dias
