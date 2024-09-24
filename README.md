@@ -24,11 +24,19 @@ A interface é simples, responsiva e permite navegar entre Pokémons anteriores 
 - JavaScript (ES6+)
 - PokeAPI (https://pokeapi.co/)
 
-## Como Usar
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/pokemon-visualizer.git
+## Estrutura do Projeto
+O projeto é composto pelos seguintes arquivos e pastas:
+- `index.html`: O arquivo principal da aplicação, contendo a estrutura da página e integração com os scripts e estilos.
+- `style.css`: Responsável por toda a estilização da Pokédex, garantindo que a interface seja responsiva e visualmente agradável em diferentes dispositivos.
+- `script.js`: Contém a lógica em JavaScript para buscar informações dos Pokémon utilizando a [PokeAPI](https://pokeapi.co/) e atualizar o conteúdo da página.
 
+## Exemplo de Uso
+1. O usuário acessa a Pokédex através da página `index.html`.
+2. Na barra de busca, o usuário pode procurar por um Pokémon digitando seu nome ou ID.
+3. Ao clicar no botão de busca, as informações do Pokémon, como ID, tipo, altura e peso, são exibidas na tela.
+4. O fundo do container muda de cor conforme o tipo do Pokémon selecionado, utilizando um degradê se o Pokémon tiver mais de um tipo.
+5. O usuário também pode navegar entre Pokémon anteriores e próximos utilizando os botões de navegação.
+6. A interface se ajusta automaticamente a diferentes tamanhos de tela, proporcionando uma experiência otimizada para dispositivos móveis, tablets e desktops.
 
 ## Créditos
 Este projeto foi desenvolvido por:
@@ -36,3 +44,8 @@ Este projeto foi desenvolvido por:
 - Universidade de Vassouras – Campus Maricá
 - Laboratório de Programação Front End
 - Fabrício Dias
+
+## Como Usar
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/pokemon-visualizer.git
